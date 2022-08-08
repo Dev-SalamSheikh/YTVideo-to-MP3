@@ -1,0 +1,33 @@
+.navbar {
+  background-color: #4acbd6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  height: 80px;
+  color: white;
+}
+
+.logo {
+  width: 120px;
+}
+
+.navbar-text p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@media screen and (max-width: 678px) {
+  .navbar-text p {
+    font-size: 14px;
+  }
+}
